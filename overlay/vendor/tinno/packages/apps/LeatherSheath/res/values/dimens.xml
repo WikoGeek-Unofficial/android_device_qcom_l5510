@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="time_font_size">60sp</dimen>
+    <dimen name="ampm_font_size">20sp</dimen>
+    <dimen name="date_font_size">22sp</dimen>
+    <dimen name="musictitle_font_size">20sp</dimen>
+    <dimen name="count_font_size">18sp</dimen>
+    
+    
+    <dimen name="display_all_width">480dip</dimen>
+    <dimen name="display_all_height">170dip</dimen>
+    
+    <dimen name="display_leftinfo_width">280dip</dimen>
+    <dimen name="display_time_height">160dip</dimen>
+    <dimen name="display_musicinfo_height">160dip</dimen>
+    
+    <dimen name="display_rightinfo_width">180dip</dimen>
+    <dimen name="display_date_height">50dip</dimen>
+    <dimen name="display_week_height">30dip</dimen>
+    <dimen name="display_righticon_height">60dip</dimen>
+
+
+<!--kj add for L5320 separted from L5510 start-->
+<!--main ui layout-->
+    <dimen name="phone_call_layout_marginTop">74dip</dimen>
+    <dimen name="phone_call_layout_marginLeft">276dip</dimen>
+    <dimen name="call_missed_layout_marginTop">70dip</dimen>
+    <dimen name="call_missed_layout_marginLeft">-17dip</dimen>
+    <dimen name="am_pm_layout_x">108dip</dimen>
+    <dimen name="am_pm_layout_y">4dip</dimen>
+    <dimen name="time_display_layout_x">105dip</dimen>
+    <dimen name="time_display_layout_y">8dip</dimen>
+    <dimen name="dateDisplay_layout_x">107dip</dimen>
+    <dimen name="dateDisplay_layout_y">45dip</dimen>
+    <dimen name="weekDisplay_layout_x">145dip</dimen>
+    <dimen name="weekDisplay_layout_y">45dip</dimen>
+    <dimen name="divide_line_layout_x">186dip</dimen>
+    <dimen name="divide_line_layout_y">17dip</dimen>
+    <dimen name="weather_layout_x">191dip</dimen>
+    <dimen name="weather_layout_y">20dip</dimen>
+    <dimen name="tempc_value_layout_x">192dip</dimen>
+    <dimen name="tempc_value_layout_y">45dip</dimen>
+    <dimen name="phone_message_layout_x">258dip</dimen>
+    <dimen name="phone_message_layout_y">12dip</dimen>
+    <dimen name="sms_unread_layout_x">280dip</dimen>
+    <dimen name="sms_unread_layout_y">12dip</dimen>
+    <dimen name="phone_music_layout_marginTop">6dip</dimen>
+    <dimen name="phone_music_layout_marginLeft">238dip</dimen>
+    <dimen name="divide_line_layout_height">43dip</dimen>
+    <dimen name="tempc_value_layout_width">80dip</dimen>
+<!--   text size-->
+    <dimen name="am_pm_text_size">10dip</dimen>
+    <dimen name="time_display_text_size">33dip</dimen>
+    <dimen name="dateDisplay_text_size">12dip</dimen>
+    <dimen name="weekDisplay_text_size">12dip</dimen>
+    <dimen name="tempc_value_text_size">12dip</dimen>
+<!--kj add for L5320 separted from L5510 start-->
+</resources>

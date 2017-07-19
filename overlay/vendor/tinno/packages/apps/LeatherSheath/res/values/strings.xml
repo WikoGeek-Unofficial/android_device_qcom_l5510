@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">W mode</string>
+    <string name="action_settings">Settings</string>
+    <string name="am_pm">Am</string>
+    <string name="music_play">No song playing...</string>
+	<string name="music_name">Unknown music name</string>
+	<string name="music_artist">Unknown artist</string>
+	<string name="tempc_unit">℃</string>
+	<string name="tempc_empty">Unknown Weather</string>
+    <string name="no_unread_sms">No unread message.</string>
+	<string name="no_miss_call">No missed call.</string>
+	<string name="locked_notices">Please open cover unlock read content.</string>
+	<string name="clock_font_setting">Setting clock font:</string>
+	<string name="clock_color_setting">Setting clock color:</string>
+	<string name="wallpaper_setting">Wallpaper setting:</string>
+</resources>

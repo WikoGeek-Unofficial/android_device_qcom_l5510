@@ -1,0 +1,3143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerializeComponents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xmlCRC>WNDNRrFa87F83qAOgYzV0g==</xmlCRC>
+  <theTestTreeInfo>
+    <TestTreeVersion>10</TestTreeVersion>
+    <SourceApplication>QSPR</SourceApplication>
+    <QGlobalVariables>
+      <QGlobalVariable>
+        <Name>ACK_PACKET_NUMBER</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>AUTOMATION_SERVER_PORT_NUMBER</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>BDADDR</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>BINARY_IMAGE_FOLDER_PATH</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CDT_PATCH</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CDT_RAWPROGRAM</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>COMBINED_SUITE_LOG</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>COMPORT_AFTER_POWERCYCLE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>COMPORT_AT_START</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ConfigFileName</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CURRENT_UNIT_INDEX</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CURRENT_WORKSTATION_NUMBER</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>CurrentTestDetails</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>Database</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DATALOGGING_XMLFILE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DELAY_BASEDON_PANEL</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DELAY_TO_SEND_DATA</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DOWNLOAD_DIAG_MI</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DOWNLOAD_DIAG_PID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DOWNLOAD_DIAG_VID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DOWNLOAD_SKIP_FILES</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>DUT_INDEX</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ENABLE_DATA_LOG</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ENABLE_READ_VALIDATION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ENABLE_VALIDATE_MSMID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ERRORCODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>ERRORSTRING</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>FIREHOSE_READBACK_MODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>FIXTURE_COMPORT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>GONOGO_RESULT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>GONOGO_RUNNING</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>GV_TEMP</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>HW_VER</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>IMAGE_PATCH</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>IMAGE_RAWPROGRAM</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>IMEI_Index0</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>IMEI_Index1</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOCATION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOGGING_ENABLED</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LOGICAL_DRIVE_TO_AVOID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>LogicalDriveForEMMC</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MAX_PAYLOAD_SIZE_IN_BYTES</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCN</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCN_AMSS_VERSION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCN_ASSY_VERSION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCN_MMI_VERSION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MCN_PCB_VERSION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MEMORY_NAME</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MO_TYPOE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>Multiple UUT ID:UUT ID 1:</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>MULTIPLEX_MANAGER_CONFIG_FILE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>NUM_OF_UNITS</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>OPERATOR</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>PANEL</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>PHYSICAL_HUB_ADDRESS</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>PHYSICAL_HUB_SOCKET_NUMBER</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>PhysicalDriveForEMMC</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>PORT_DESCRIPTION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>PROGRAM</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>PROGRAMMER_FILENAME</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QSPR_ABORT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QSPR_SEARCH</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QSPR_STOP</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QTM_ABORT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>QTM_STOP</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>READBACK_MODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>REFERENCE_MSMID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>RegisteredMachine</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>RootName</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SAHARA_MODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SAHARA_TIMEOUT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>Server</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SetupTest Message</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SFIS_SP_COMPORT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SiteKey</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SiteTreeID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SN</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SN_REG</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SP_API_ENABLE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SUBERRORCODE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SUBERRORSTRING</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SW_MCN</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>SW_VER</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TARGET_NAME</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TEST_FIXTURE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TesterConfigFile</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TESTERID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TOTAL_WORKSTATION_NUMBER</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TreeFileName</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TreeStringID</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>TreeType</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>USE_ACK_RAW_DATA</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>USE_ACK_RAWDATA_EVERY_NUMPACKETS</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>USE_ALWAYS_VALIDATE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>USE_SKIP_WRITE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>USE_VERBOSE</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>WAIT_COMPORT_READY</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>WLAN_MAC</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>WORKSTATION</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>XTT_TIMEOUT</Name>
+      </QGlobalVariable>
+      <QGlobalVariable>
+        <Name>XTT_TIMEOUT_OFFSET</Name>
+      </QGlobalVariable>
+    </QGlobalVariables>
+  </theTestTreeInfo>
+  <theRootTest NodeType="Root">
+    <Index>8ea0a5ff-b8e4-4a08-ba4f-00f592e063a1</Index>
+    <OriginalIndex>8ea0a5ff-b8e4-4a08-ba4f-00f592e063a1</OriginalIndex>
+    <IsTestStep>false</IsTestStep>
+    <AbortFolder>false</AbortFolder>
+    <FolderProperties NodeType="FolderProperty">
+      <Expanded>false</Expanded>
+      <TestName>Test Name</TestName>
+      <StopOnError>None</StopOnError>
+      <TreatExceptionAsError>false</TreatExceptionAsError>
+      <TargetName>This PC</TargetName>
+      <IsLinkActive xsi:nil="true" />
+      <ToolTest>false</ToolTest>
+      <TreeMustRun>false</TreeMustRun>
+      <NodeRID>-1</NodeRID>
+      <NumberOfTests>1</NumberOfTests>
+      <FolderMustRun>false</FolderMustRun>
+      <Parameters />
+      <FolderForTestLoop>false</FolderForTestLoop>
+      <LinkChecksum />
+      <ConfigLocation />
+      <ConfigChecksum />
+    </FolderProperties>
+    <FolderTest NodeType="Folder">
+      <Index>5a6caabf-1e6f-4e62-aa5d-96bbf3e06df7</Index>
+      <OriginalIndex>5a6caabf-1e6f-4e62-aa5d-96bbf3e06df7</OriginalIndex>
+      <IsTestStep>false</IsTestStep>
+      <AbortFolder>false</AbortFolder>
+      <FolderProperties NodeType="FolderProperty">
+        <Expanded>true</Expanded>
+        <TestName>StartUp</TestName>
+        <StopOnError>None</StopOnError>
+        <TreatExceptionAsError>false</TreatExceptionAsError>
+        <RealName>Folder</RealName>
+        <TargetName>This PC</TargetName>
+        <CheckStateTest>Indeterminate</CheckStateTest>
+        <IsLinkActive xsi:nil="true" />
+        <ToolTest>false</ToolTest>
+        <TreeMustRun>false</TreeMustRun>
+        <NodeRID>-1</NodeRID>
+        <NumberOfTests>27</NumberOfTests>
+        <FolderMustRun>false</FolderMustRun>
+        <Parameters />
+        <FolderForTestLoop>false</FolderForTestLoop>
+        <LinkChecksum />
+        <ConfigLocation />
+        <ConfigChecksum />
+      </FolderProperties>
+      <FolderTest NodeType="Folder">
+        <Index>f76e091e-6b37-4333-a117-707b1bd04c8e</Index>
+        <OriginalIndex>f76e091e-6b37-4333-a117-707b1bd04c8e</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <AbortFolder>false</AbortFolder>
+        <FolderProperties NodeType="FolderProperty">
+          <Expanded>true</Expanded>
+          <TestName>PhoneConnection</TestName>
+          <StopOnError>CompleteStop</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>Folder</RealName>
+          <TargetName>This PC</TargetName>
+          <IsLinkActive xsi:nil="true" />
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>3</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters />
+          <FolderForTestLoop>false</FolderForTestLoop>
+          <LinkChecksum />
+          <ConfigLocation />
+          <ConfigChecksum />
+        </FolderProperties>
+        <DotNetTest NodeType="Test">
+          <Index>c827ebd7-42d0-4da6-91ff-34c78ba3ef44</Index>
+          <OriginalIndex>c827ebd7-42d0-4da6-91ff-34c78ba3ef44</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>StartTime</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.StartTime</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>false</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters />
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+        <DotNetTest NodeType="Test">
+          <Index>3d90d114-b466-41fe-98a9-ebf798870ca2</Index>
+          <OriginalIndex>3d90d114-b466-41fe-98a9-ebf798870ca2</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>DelayBasedOnPanel</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.DelayBasedOnPanel</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>false</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters>
+              <ParameterCls>
+                <Name>panel</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>2</Value>
+                <DataType>String</DataType>
+                <Type>Input</Type>
+                <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+                <GlobalVariableName>PANEL</GlobalVariableName>
+              </ParameterCls>
+              <ParameterCls>
+                <Name>offsetInMilliSecs</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>1000</Value>
+                <DataType>Int</DataType>
+                <Type>Input</Type>
+                <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+                <GlobalVariableName>DELAY_BASEDON_PANEL</GlobalVariableName>
+              </ParameterCls>
+              <ParameterCls>
+                <Name>SwDownloadErrCode</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>-99999</Value>
+                <DataType>Int</DataType>
+                <Type>Output</Type>
+                <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <Description>Software Download Error Code</Description>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              </ParameterCls>
+            </Parameters>
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+      </FolderTest>
+      <FolderTest NodeType="Folder">
+        <Index>5f78893e-d792-4e89-b6b4-d009ff7beedc</Index>
+        <OriginalIndex>5f78893e-d792-4e89-b6b4-d009ff7beedc</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <AbortFolder>false</AbortFolder>
+        <FolderProperties NodeType="FolderProperty">
+          <Expanded>true</Expanded>
+          <TestName>IdentifyPort</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>Folder</RealName>
+          <TargetName>This PC</TargetName>
+          <Scenarios>
+            <LoopConditions>
+              <LoopName>IdentifyPort</LoopName>
+              <DataType>Int</DataType>
+              <LoopType>BYCOUNT</LoopType>
+              <LoopOnType>INPUTPARAM</LoopOnType>
+              <LoopValuesAsString>10</LoopValuesAsString>
+              <LoopValuesFinalAsString>10</LoopValuesFinalAsString>
+              <ArrayIndex>-2</ArrayIndex>
+              <Array2DIndex />
+              <ScenarioID>-1</ScenarioID>
+              <IgnoreIntermediateResults>true</IgnoreIntermediateResults>
+              <OriginalValue>10</OriginalValue>
+            </LoopConditions>
+            <DontRunConditionAsString />
+            <ConditionCheckAsString>True</ConditionCheckAsString>
+            <DescriptionsAsString />
+            <Condition>
+              <Expression>C1</Expression>
+              <Conditions>
+                <BaseCondition xsi:type="ScenarioCondition">
+                  <Name>C1</Name>
+                  <GlobalVariableSign>Equals</GlobalVariableSign>
+                  <TestConditionType>TestResult</TestConditionType>
+                  <ParameterSign>Equals</ParameterSign>
+                  <ParameterValue />
+                  <CompareToType>Constant</CompareToType>
+                  <Result>Passed</Result>
+                  <ParameterIndex>-3</ParameterIndex>
+                  <TestIndex>949a463e-19d1-4a7b-9fce-bbeacf696b39</TestIndex>
+                </BaseCondition>
+              </Conditions>
+              <Action>None</Action>
+            </Condition>
+          </Scenarios>
+          <IsLinkActive xsi:nil="true" />
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>3</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters />
+          <FolderForTestLoop>false</FolderForTestLoop>
+          <LinkChecksum />
+          <ConfigLocation />
+          <ConfigChecksum />
+        </FolderProperties>
+        <DotNetTest NodeType="Test">
+          <Index>03b29d96-9964-40c0-bb97-770133cd1e9f</Index>
+          <OriginalIndex>03b29d96-9964-40c0-bb97-770133cd1e9f</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>WaitForDevice</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.WaitForDevice</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>false</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters>
+              <ParameterCls>
+                <Name>waitInSecs</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>1</Value>
+                <DataType>Int</DataType>
+                <Type>Input</Type>
+                <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+                <GlobalVariableName>WAIT_COMPORT_READY</GlobalVariableName>
+              </ParameterCls>
+            </Parameters>
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+        <DotNetTest NodeType="Test">
+          <Index>949a463e-19d1-4a7b-9fce-bbeacf696b39</Index>
+          <OriginalIndex>949a463e-19d1-4a7b-9fce-bbeacf696b39</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>CheckIfPortExists</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.CheckIfPortExists</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>false</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters>
+              <ParameterCls>
+                <Name>portNumber</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>29</Value>
+                <DataType>Int</DataType>
+                <Type>Input</Type>
+                <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+                <GlobalVariableName>COMPORT_AT_START</GlobalVariableName>
+                <GlobalVariableNameOther>SN</GlobalVariableNameOther>
+              </ParameterCls>
+              <ParameterCls>
+                <Name>SwDownloadErrCode</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>-99999</Value>
+                <DataType>Int</DataType>
+                <Type>Output</Type>
+                <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <Description>Software Download Error Code</Description>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              </ParameterCls>
+            </Parameters>
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+      </FolderTest>
+      <DotNetTest NodeType="Test">
+        <Index>60ceefd2-7fb6-4851-8d3b-965ee017ab1c</Index>
+        <OriginalIndex>60ceefd2-7fb6-4851-8d3b-965ee017ab1c</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_SaharaOpenPortWithChipValidation</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_SaharaOpenPortWithChipValidation</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test will NOT connect to QPST and uses only QPHONEMS. It expects a port number, -1 (auto detect) is supported.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Failed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>5f78893e-d792-4e89-b6b4-d009ff7beedc</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>Port</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>29</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              <GlobalVariableName>COMPORT_AT_START</GlobalVariableName>
+              <GlobalVariableNameOther>SN</GlobalVariableNameOther>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>EnableValidation</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Constraints>No=0;Yes=1</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>MsmIdReferenceVal</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>8392929</Value>
+              <DataType>UInt64</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>MSM_ID</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>UInt64</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Version</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>UInt64</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>mode</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Description>Select from drop down</Description>
+              <Constraints>Download=0;Upgrade=2</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>timeout</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>UInt64</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>463bcc37-07ad-4ac8-8e23-175b4de43c69</Index>
+        <OriginalIndex>463bcc37-07ad-4ac8-8e23-175b4de43c69</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_SaharaArmPrgDownload</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_SaharaArmPrgDownload</RealName>
+          <TargetName>This PC</TargetName>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Failed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>60ceefd2-7fb6-4851-8d3b-965ee017ab1c</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>sDirectoryName</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>D:\wangyanhui\software</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              <GlobalVariableName>BINARY_IMAGE_FOLDER_PATH</GlobalVariableName>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>sFilename</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>prog_emmc_firehose_8916.mbn</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>67fb70d9-9a33-49b9-99ea-4d38087c59ea</Index>
+        <OriginalIndex>67fb70d9-9a33-49b9-99ea-4d38087c59ea</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>DisconnectFromServer_Sahara</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.DisconnectFromServer_Sahara</RealName>
+          <TargetName>This PC</TargetName>
+          <IsLinkActive xsi:nil="true" />
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>true</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters />
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <FolderTest NodeType="Folder">
+        <Index>91530e60-4f67-41b7-80dc-e326f020ef2c</Index>
+        <OriginalIndex>91530e60-4f67-41b7-80dc-e326f020ef2c</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <AbortFolder>false</AbortFolder>
+        <FolderProperties NodeType="FolderProperty">
+          <Expanded>true</Expanded>
+          <TestName>IdentifyPort</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>Folder</RealName>
+          <TargetName>This PC</TargetName>
+          <Scenarios>
+            <LoopConditions>
+              <LoopName>IdentifyPort</LoopName>
+              <DataType>Int</DataType>
+              <LoopType>BYCOUNT</LoopType>
+              <LoopOnType>INPUTPARAM</LoopOnType>
+              <LoopValuesAsString>10</LoopValuesAsString>
+              <LoopValuesFinalAsString>10</LoopValuesFinalAsString>
+              <ArrayIndex>-2</ArrayIndex>
+              <Array2DIndex />
+              <ScenarioID>-1</ScenarioID>
+              <TestIndex>91530e60-4f67-41b7-80dc-e326f020ef2c</TestIndex>
+              <IgnoreIntermediateResults>true</IgnoreIntermediateResults>
+              <OriginalValue>10</OriginalValue>
+            </LoopConditions>
+            <DontRunConditionAsString />
+            <ConditionCheckAsString>True</ConditionCheckAsString>
+            <DescriptionsAsString />
+            <Condition>
+              <Expression>C1</Expression>
+              <Conditions>
+                <BaseCondition xsi:type="ScenarioCondition">
+                  <Name>C1</Name>
+                  <GlobalVariableSign>Equals</GlobalVariableSign>
+                  <TestConditionType>TestResult</TestConditionType>
+                  <ParameterSign>Equals</ParameterSign>
+                  <ParameterValue />
+                  <CompareToType>Constant</CompareToType>
+                  <Result>Passed</Result>
+                  <ParameterIndex>-3</ParameterIndex>
+                  <TestIndex>71eee042-c5dc-4682-8136-308047fc47f5</TestIndex>
+                </BaseCondition>
+              </Conditions>
+              <Action>None</Action>
+            </Condition>
+          </Scenarios>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Failed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>463bcc37-07ad-4ac8-8e23-175b4de43c69</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>3</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters />
+          <FolderForTestLoop>false</FolderForTestLoop>
+          <LinkChecksum />
+          <ConfigLocation />
+          <ConfigChecksum />
+        </FolderProperties>
+        <DotNetTest NodeType="Test">
+          <Index>919674d8-b997-40b3-9bc6-5320845bc385</Index>
+          <OriginalIndex>919674d8-b997-40b3-9bc6-5320845bc385</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>WaitForDevice</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.WaitForDevice</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>false</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters>
+              <ParameterCls>
+                <Name>waitInSecs</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>1</Value>
+                <DataType>Int</DataType>
+                <Type>Input</Type>
+                <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              </ParameterCls>
+            </Parameters>
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+        <DotNetTest NodeType="Test">
+          <Index>71eee042-c5dc-4682-8136-308047fc47f5</Index>
+          <OriginalIndex>71eee042-c5dc-4682-8136-308047fc47f5</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>CheckIfPortExists</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.CheckIfPortExists</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>false</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters>
+              <ParameterCls>
+                <Name>portNumber</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>29</Value>
+                <DataType>Int</DataType>
+                <Type>Input</Type>
+                <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+                <GlobalVariableName>COMPORT_AT_START</GlobalVariableName>
+              </ParameterCls>
+              <ParameterCls>
+                <Name>SwDownloadErrCode</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>-99999</Value>
+                <DataType>Int</DataType>
+                <Type>Output</Type>
+                <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <Description>Software Download Error Code</Description>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              </ParameterCls>
+            </Parameters>
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+      </FolderTest>
+      <DotNetTest NodeType="Test">
+        <Index>afc02206-7f38-4fa3-87fb-2be170236d81</Index>
+        <OriginalIndex>afc02206-7f38-4fa3-87fb-2be170236d81</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_FireHoseOpenPort</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_FireHoseOpenPort</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test will NOT connect to QPST and uses only QPHONEMS. It expects a port number, -1 (auto detect) is supported.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>463bcc37-07ad-4ac8-8e23-175b4de43c69</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <NegateResult>true</NegateResult>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>Port</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>29</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              <GlobalVariableName>COMPORT_AT_START</GlobalVariableName>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>ff237ce9-c468-4633-95a1-f7f7658c2f3f</Index>
+        <OriginalIndex>ff237ce9-c468-4633-95a1-f7f7658c2f3f</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_FireHoseNOP</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_FireHoseNOP</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Failed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>afc02206-7f38-4fa3-87fb-2be170236d81</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters />
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>86e753c0-d56a-4502-9466-889944a38f61</Index>
+        <OriginalIndex>86e753c0-d56a-4502-9466-889944a38f61</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_FireHoseConfigure</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_FireHoseConfigure</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Failed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ff237ce9-c468-4633-95a1-f7f7658c2f3f</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>MaxPayloadSizeInBytes</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>49152</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>memory_name</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>eMMC</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>target_name</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>8916</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>AckPacketNumber</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>100</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseAckRawDataAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseSkipWriteAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseAlwaysValidateAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseVerboseAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseAckRawDataEveryNumPackets</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>ecbb0085-7c18-4453-abe7-871060f8bbb6</Index>
+        <OriginalIndex>ecbb0085-7c18-4453-abe7-871060f8bbb6</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_SetSendDataDelay_Firehose</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_SetSendDataDelay_Firehose</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Failed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>afc02206-7f38-4fa3-87fb-2be170236d81</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>timeinMilliSeconds</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>d146ca80-af0b-4495-b36c-0a55e838088e</Index>
+        <OriginalIndex>d146ca80-af0b-4495-b36c-0a55e838088e</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_EnableDataLogToFile_Firehose</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_EnableDataLogToFile_Firehose</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Failed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>afc02206-7f38-4fa3-87fb-2be170236d81</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>enabled</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>False</Value>
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>ff9f823d-542e-437d-84e9-e9e202630c04</Index>
+        <OriginalIndex>ff9f823d-542e-437d-84e9-e9e202630c04</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_SetReadbackMode_Firehose</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_SetReadbackMode_Firehose</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <CheckStateTest>Unchecked</CheckStateTest>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>d146ca80-af0b-4495-b36c-0a55e838088e</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <NegateResult>true</NegateResult>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>mode</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Byte</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Description>0-No Readback
+1-Always External Readback Data
+2-Always Ixternal Readback verify
+3-Always External Readback SHA256
+4-Always External Readback Data(SHA256 Verify)
+5-Follow RawProgram Internal Readback Verify</Description>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              <GlobalVariableNameOther>FIREHOSE_READBACK_MODE</GlobalVariableNameOther>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>6b07272d-8944-4304-a20a-d82bfa77c3ac</Index>
+        <OriginalIndex>6b07272d-8944-4304-a20a-d82bfa77c3ac</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_FireHoseSetDigestFromXml</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_FireHoseSetDigestFromXml</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <CheckStateTest>Unchecked</CheckStateTest>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1 AND ( C2 OR C3 )</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ff9f823d-542e-437d-84e9-e9e202630c04</TestIndex>
+              </BaseCondition>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C2</Name>
+                <GlobalVariableName>FIREHOSE_READBACK_MODE</GlobalVariableName>
+                <GlobalVariableValue>3</GlobalVariableValue>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>GlobalVariables</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ff9f823d-542e-437d-84e9-e9e202630c04</TestIndex>
+              </BaseCondition>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C3</Name>
+                <GlobalVariableName>FIREHOSE_READBACK_MODE</GlobalVariableName>
+                <GlobalVariableValue>4</GlobalVariableValue>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>GlobalVariables</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ff9f823d-542e-437d-84e9-e9e202630c04</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <NegateResult>true</NegateResult>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>digestfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>rawprogram2_1.0_jedec_lpddr2_single_channel.digest</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>ab9242a6-13bb-4b43-a7b8-ad86751fc151</Index>
+        <OriginalIndex>ab9242a6-13bb-4b43-a7b8-ad86751fc151</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_FireHoseSetDigestFromXml</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_FireHoseSetDigestFromXml</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <CheckStateTest>Unchecked</CheckStateTest>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1 AND ( C2 OR C3 )</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ff9f823d-542e-437d-84e9-e9e202630c04</TestIndex>
+              </BaseCondition>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C2</Name>
+                <GlobalVariableName>FIREHOSE_READBACK_MODE</GlobalVariableName>
+                <GlobalVariableValue>3</GlobalVariableValue>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>GlobalVariables</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ff9f823d-542e-437d-84e9-e9e202630c04</TestIndex>
+              </BaseCondition>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C3</Name>
+                <GlobalVariableName>FIREHOSE_READBACK_MODE</GlobalVariableName>
+                <GlobalVariableValue>4</GlobalVariableValue>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>GlobalVariables</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ff9f823d-542e-437d-84e9-e9e202630c04</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <NegateResult>true</NegateResult>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>digestfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>rawprogram_unsparse.digest</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>93ca94c4-72d4-4139-bc99-ede81fa12be5</Index>
+        <OriginalIndex>93ca94c4-72d4-4139-bc99-ede81fa12be5</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_UploadCDT_FireHose</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcImage_FireHose</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <CheckStateTest>Unchecked</CheckStateTest>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>d146ca80-af0b-4495-b36c-0a55e838088e</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <NegateResult>true</NegateResult>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>rawprogramfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>rawprogram2_1.0_jedec_lpddr2_single_channel.xml</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>patchfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>patch2.xml</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>imageSizeInMB</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Single</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>throughput</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Single</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>27c1088e-089e-4bfb-9267-d11bd6595312</Index>
+        <OriginalIndex>27c1088e-089e-4bfb-9267-d11bd6595312</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_UploadEmmcImage_FireHose</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcImage_FireHose</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <PreCondition>
+            <Expression>C1</Expression>
+            <Conditions>
+              <BaseCondition xsi:type="TestPreCondition">
+                <Name>C1</Name>
+                <GlobalVariableSign>Equals</GlobalVariableSign>
+                <TestConditionType>TestResult</TestConditionType>
+                <ParameterSign>Equals</ParameterSign>
+                <ParameterValue />
+                <CompareToType>Constant</CompareToType>
+                <Result>Passed</Result>
+                <ParameterIndex>-3</ParameterIndex>
+                <TestIndex>ecbb0085-7c18-4453-abe7-871060f8bbb6</TestIndex>
+              </BaseCondition>
+            </Conditions>
+            <NegateResult>true</NegateResult>
+            <Action>None</Action>
+          </PreCondition>
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>rawprogramfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>rawprogram_unsparse.xml</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>patchfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>patch0.xml</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>imageSizeInMB</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Single</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>throughput</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Single</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <DotNetTest NodeType="Test">
+        <Index>9951247e-7ad0-4930-b956-cc4dca5c70d8</Index>
+        <OriginalIndex>9951247e-7ad0-4930-b956-cc4dca5c70d8</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <DotNetProperties NodeType="TestProperty">
+          <Expanded>false</Expanded>
+          <TestName>QPHONEMS_FireHose_Reset</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>SwDownload.SwDownloadTest.QPHONEMS_FireHose_Reset</RealName>
+          <TargetName>This PC</TargetName>
+          <Description>Test expects a non QPST connection.</Description>
+          <IsLinkActive xsi:nil="true" />
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>false</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>1</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters>
+            <ParameterCls>
+              <Name>Action</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>off</Value>
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>DelayInSeconds</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>180</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Description>Postpone the reset or off by several seconds</Description>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+          <FailString>False</FailString>
+          <CreateNewInstance>false</CreateNewInstance>
+        </DotNetProperties>
+      </DotNetTest>
+      <FolderTest NodeType="Folder">
+        <Index>9d1dfb91-56b7-4657-a598-c4d8849c6fae</Index>
+        <OriginalIndex>9d1dfb91-56b7-4657-a598-c4d8849c6fae</OriginalIndex>
+        <IsTestStep>false</IsTestStep>
+        <AbortFolder>false</AbortFolder>
+        <FolderProperties NodeType="FolderProperty">
+          <Expanded>true</Expanded>
+          <TestName>PhoneDisconnect</TestName>
+          <StopOnError>None</StopOnError>
+          <TreatExceptionAsError>false</TreatExceptionAsError>
+          <RealName>Folder</RealName>
+          <TargetName>This PC</TargetName>
+          <IsLinkActive xsi:nil="true" />
+          <ToolTest>false</ToolTest>
+          <TreeMustRun>true</TreeMustRun>
+          <NodeRID>-1</NodeRID>
+          <NumberOfTests>3</NumberOfTests>
+          <FolderMustRun>false</FolderMustRun>
+          <Parameters />
+          <FolderForTestLoop>false</FolderForTestLoop>
+          <LinkChecksum />
+          <ConfigLocation />
+          <ConfigChecksum />
+        </FolderProperties>
+        <DotNetTest NodeType="Test">
+          <Index>bbcabadf-2ba5-4509-aa61-250a6f7d5d6a</Index>
+          <OriginalIndex>bbcabadf-2ba5-4509-aa61-250a6f7d5d6a</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>EndTime</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.EndTime</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>true</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters>
+              <ParameterCls>
+                <Name>totalElapsedTimeInSeconds</Name>
+                <NoOfElements>1</NoOfElements>
+                <Value>-99999</Value>
+                <DataType>Double</DataType>
+                <Type>Output</Type>
+                <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+                <EnableChartingAsString>F</EnableChartingAsString>
+                <UseRunTimeLimits>true</UseRunTimeLimits>
+                <ParamRID>-1</ParamRID>
+                <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+              </ParameterCls>
+            </Parameters>
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+        <DotNetTest NodeType="Test">
+          <Index>d4a14075-5de8-4c8a-9a92-031fc290a6f6</Index>
+          <OriginalIndex>d4a14075-5de8-4c8a-9a92-031fc290a6f6</OriginalIndex>
+          <IsTestStep>false</IsTestStep>
+          <DotNetProperties NodeType="TestProperty">
+            <Expanded>false</Expanded>
+            <TestName>DisconnectFromServer_FireHose</TestName>
+            <StopOnError>None</StopOnError>
+            <TreatExceptionAsError>false</TreatExceptionAsError>
+            <RealName>SwDownload.SwDownloadTest.DisconnectFromServer_FireHose</RealName>
+            <TargetName>This PC</TargetName>
+            <IsLinkActive xsi:nil="true" />
+            <ToolTest>false</ToolTest>
+            <TreeMustRun>true</TreeMustRun>
+            <NodeRID>-1</NodeRID>
+            <NumberOfTests>1</NumberOfTests>
+            <FolderMustRun>false</FolderMustRun>
+            <Parameters />
+            <FailString>False</FailString>
+            <CreateNewInstance>false</CreateNewInstance>
+          </DotNetProperties>
+        </DotNetTest>
+      </FolderTest>
+    </FolderTest>
+    <RootProperties NodeType="RootProperty">
+      <Expanded>true</Expanded>
+      <TestName>MSM8916_SoftwareDownloadWithCDT_eMMC_Firehose</TestName>
+      <StopOnError>None</StopOnError>
+      <TreatExceptionAsError>false</TreatExceptionAsError>
+      <RealName>ROOT</RealName>
+      <TargetName>This PC</TargetName>
+      <CheckStateTest>Indeterminate</CheckStateTest>
+      <IsLinkActive xsi:nil="true" />
+      <ToolTest>false</ToolTest>
+      <TreeMustRun>false</TreeMustRun>
+      <NodeRID>-1</NodeRID>
+      <NumberOfTests>28</NumberOfTests>
+      <FolderMustRun>false</FolderMustRun>
+      <Parameters />
+      <FolderForTestLoop>false</FolderForTestLoop>
+      <LinkChecksum />
+      <ConfigLocation />
+      <ConfigChecksum />
+      <Server />
+      <Database />
+      <EnableDatabase>true</EnableDatabase>
+      <RefreshConfig>true</RefreshConfig>
+      <EditQGroups />
+      <RegisteredMachine />
+      <SiteKey>HAIHUI\QTM</SiteKey>
+      <TreeType>GoNoGo</TreeType>
+      <StopOnFirstTestFailure>true</StopOnFirstTestFailure>
+      <TreeFileName>F:\Product_doc\L5510\XTT\MSM8916_SoftwareDownloadWithCDT_eMMC_Firehose.xtt</TreeFileName>
+      <TreeStringID>-1</TreeStringID>
+    </RootProperties>
+  </theRootTest>
+  <thePlugInConfig>
+    <NumPlugIn>0</NumPlugIn>
+    <AllConfig>
+      <PlugInName>Registration</PlugInName>
+    </AllConfig>
+    <AllConfig>
+      <PlugInName>Registration</PlugInName>
+    </AllConfig>
+    <AllConfig>
+      <PlugInName>Registration</PlugInName>
+    </AllConfig>
+    <TestResultsConfig>
+      <PlugInName>XmlForDB</PlugInName>
+      <string>ID</string>
+      <string>Process</string>
+      <string>Station</string>
+      <string>Line</string>
+      <string>Model</string>
+      <string>SerialNumber</string>
+      <string>TestName</string>
+      <string>HighSpec</string>
+      <string>LowSpec</string>
+      <string>Result</string>
+      <string>TestTime</string>
+      <string>TestStatus</string>
+      <string>ModifiedDate</string>
+      <string>Line</string>
+      <string>Op</string>
+      <string>False</string>
+      <string>True</string>
+      <string>False</string>
+      <string>C:\Qualcomm\QSPR\TestLog\DataCollect\MSM8x26\SwDownload\QSPRCSV</string>
+      <string>C:\Qualcomm\QSPR\TestLog\DataCollect\MSM8x26\SwDownload\QSPRXML</string>
+      <string>C:\Program Files (x86)\Qualcomm\QDART\QSPRStyleSheets\QTMData.xsl</string>
+      <string>True</string>
+      <string>False</string>
+      <string />
+      <string>False</string>
+      <string>False</string>
+      <PlugInConfigNames>idHeader</PlugInConfigNames>
+      <PlugInConfigNames>processHeader </PlugInConfigNames>
+      <PlugInConfigNames>stationHeader</PlugInConfigNames>
+      <PlugInConfigNames>lineHeader</PlugInConfigNames>
+      <PlugInConfigNames>modelHeader</PlugInConfigNames>
+      <PlugInConfigNames>serialNumberHeader</PlugInConfigNames>
+      <PlugInConfigNames>testNameHeader</PlugInConfigNames>
+      <PlugInConfigNames>highSpecHeader</PlugInConfigNames>
+      <PlugInConfigNames>lowSpecHeader</PlugInConfigNames>
+      <PlugInConfigNames>resultHeader</PlugInConfigNames>
+      <PlugInConfigNames>testTimeHeader</PlugInConfigNames>
+      <PlugInConfigNames>testStatusHeader</PlugInConfigNames>
+      <PlugInConfigNames>testDateHeader</PlugInConfigNames>
+      <PlugInConfigNames>globalLine</PlugInConfigNames>
+      <PlugInConfigNames>globalProcess</PlugInConfigNames>
+      <PlugInConfigNames>writeCSV</PlugInConfigNames>
+      <PlugInConfigNames>writeXML</PlugInConfigNames>
+      <PlugInConfigNames>ConvertAtEnd</PlugInConfigNames>
+      <PlugInConfigNames>CSVFilePath</PlugInConfigNames>
+      <PlugInConfigNames>xmlFilePath</PlugInConfigNames>
+      <PlugInConfigNames>styleSheet</PlugInConfigNames>
+      <PlugInConfigNames>AppendComputerName</PlugInConfigNames>
+      <PlugInConfigNames>writeToCustomFormat</PlugInConfigNames>
+      <PlugInConfigNames>customFormatterFilePath</PlugInConfigNames>
+      <PlugInConfigNames>combineSnResults</PlugInConfigNames>
+      <PlugInConfigNames>writeXmlAfterTest</PlugInConfigNames>
+    </TestResultsConfig>
+  </thePlugInConfig>
+  <WConfig>
+    <ResetGlobalVariables>true</ResetGlobalVariables>
+    <SuppressSerialNumberDialog>true</SuppressSerialNumberDialog>
+    <CreateDebugWindowsOnLoading>false</CreateDebugWindowsOnLoading>
+    <ListofDebugWinNames />
+    <SuppressResultsDialog>true</SuppressResultsDialog>
+    <ShowFailedTests>false</ShowFailedTests>
+    <ClearSerialNumber>false</ClearSerialNumber>
+    <CustomLinkAppName />
+    <CustomLinkAppArgs />
+    <CustomAppToolTip>Custom Tool. Option is set in Workspaceconfig</CustomAppToolTip>
+    <UseDllSearch>false</UseDllSearch>
+    <DLLPaths />
+    <AlwaysOpenFile />
+    <OpenPreviousFile>true</OpenPreviousFile>
+    <SimulationMode>false</SimulationMode>
+    <RecentFileListSize>3</RecentFileListSize>
+    <SuppressWarnings>false</SuppressWarnings>
+    <SuppressSpashScreen>false</SuppressSpashScreen>
+    <VerifyDllVersion>false</VerifyDllVersion>
+    <DoubleClickRunsTest>false</DoubleClickRunsTest>
+    <AskBeforeStoppingTree>false</AskBeforeStoppingTree>
+    <SaveAllDebugWindows>true</SaveAllDebugWindows>
+    <MaxDisplayDebugCharacters>1800000</MaxDisplayDebugCharacters>
+    <RefreshCurrSettings>true</RefreshCurrSettings>
+    <ShowTimeStamp>false</ShowTimeStamp>
+    <ShowDateStamp>false</ShowDateStamp>
+    <AutoResizeDebugWindows>false</AutoResizeDebugWindows>
+    <ShowDebugMessages>true</ShowDebugMessages>
+    <ShowToolTips>true</ShowToolTips>
+    <IconSize>Small Icons</IconSize>
+    <IconType>Office 2003</IconType>
+    <EnableTracing>false</EnableTracing>
+    <EnableSound>true</EnableSound>
+    <EnableHiveTracing>false</EnableHiveTracing>
+    <DebugWindowSaveLocation>C:\Program Files\Qualcomm\QDART\bin\..\Logs\QSPRLogs</DebugWindowSaveLocation>
+    <SaveDebugOnlyOnFail>false</SaveDebugOnlyOnFail>
+    <SaveInSubFolders>false</SaveInSubFolders>
+    <TestResultsSaveLocation>C:\Program Files\Qualcomm\QDART\bin\..\Logs\QSPRLogs</TestResultsSaveLocation>
+    <sFont>
+      <FontFamily>Microsoft Sans Serif</FontFamily>
+      <GraphicsUnit>Point</GraphicsUnit>
+      <Size>10</Size>
+      <Style>Regular</Style>
+    </sFont>
+    <LastUsedSerialNumber />
+    <StartUpTTDPlugin>Test Tree</StartUpTTDPlugin>
+    <DebugTraceLevel>Verbose</DebugTraceLevel>
+    <SeperateTraceLevelWindows>false</SeperateTraceLevelWindows>
+    <DebugWindowUpdateOption>Auto Update</DebugWindowUpdateOption>
+    <AutoScrollDebugWindows>true</AutoScrollDebugWindows>
+    <TestResultMessageProcessingOption>Auto Update</TestResultMessageProcessingOption>
+    <EnableSUITEOutParam>false</EnableSUITEOutParam>
+    <AllowOperatorRunUnregisteredTrees>false</AllowOperatorRunUnregisteredTrees>
+    <AllowOperatorAbortTestRun>true</AllowOperatorAbortTestRun>
+    <CustomStartupEvents />
+    <SearchString />
+    <CurrentSearchOptions>TestName</CurrentSearchOptions>
+    <SearchCaseMatch>false</SearchCaseMatch>
+    <NodeDetailsChoice>31</NodeDetailsChoice>
+  </WConfig>
+  <DebugConfig>
+    <DockConfig>
+      <DockAreaSize>
+        <Width>1011</Width>
+        <Height>40</Height>
+      </DockAreaSize>
+      <PaneSize>
+        <Width>100</Width>
+        <Height>100</Height>
+      </PaneSize>
+      <DockLocation>DockedTop</DockLocation>
+      <Pinned>true</Pinned>
+      <ChildPaneStyle>HorizontalSplit</ChildPaneStyle>
+      <WindowName>Error</WindowName>
+      <FloatingLocation>
+        <X>-1</X>
+        <Y>-1</Y>
+      </FloatingLocation>
+    </DockConfig>
+    <DockConfig>
+      <DockAreaSize>
+        <Width>0</Width>
+        <Height>40</Height>
+      </DockAreaSize>
+      <PaneSize>
+        <Width>100</Width>
+        <Height>100</Height>
+      </PaneSize>
+      <DockLocation>DockedTop</DockLocation>
+      <Pinned>true</Pinned>
+      <ChildPaneStyle>HorizontalSplit</ChildPaneStyle>
+      <WindowName>Debug</WindowName>
+      <FloatingLocation>
+        <X>-1</X>
+        <Y>-1</Y>
+      </FloatingLocation>
+    </DockConfig>
+    <DockConfig>
+      <DockAreaSize>
+        <Width>0</Width>
+        <Height>34</Height>
+      </DockAreaSize>
+      <PaneSize>
+        <Width>100</Width>
+        <Height>100</Height>
+      </PaneSize>
+      <DockLocation>DockedTop</DockLocation>
+      <Pinned>true</Pinned>
+      <ChildPaneStyle>HorizontalSplit</ChildPaneStyle>
+      <WindowName>CallBack</WindowName>
+      <FloatingLocation>
+        <X>-1</X>
+        <Y>-1</Y>
+      </FloatingLocation>
+    </DockConfig>
+    <DockConfig>
+      <DockAreaSize>
+        <Width>312</Width>
+        <Height>443</Height>
+      </DockAreaSize>
+      <PaneSize>
+        <Width>100</Width>
+        <Height>100</Height>
+      </PaneSize>
+      <DockLocation>DockedTop</DockLocation>
+      <Pinned>true</Pinned>
+      <ChildPaneStyle>HorizontalSplit</ChildPaneStyle>
+      <WindowName>HTML window</WindowName>
+      <FloatingLocation>
+        <X>-1</X>
+        <Y>-1</Y>
+      </FloatingLocation>
+    </DockConfig>
+    <DockConfig>
+      <DockAreaSize>
+        <Width>1011</Width>
+        <Height>254</Height>
+      </DockAreaSize>
+      <PaneSize>
+        <Width>100</Width>
+        <Height>100</Height>
+      </PaneSize>
+      <DockLocation>DockedTop</DockLocation>
+      <Pinned>true</Pinned>
+      <ChildPaneStyle>HorizontalSplit</ChildPaneStyle>
+      <WindowName>Temp</WindowName>
+      <FloatingLocation>
+        <X>-1</X>
+        <Y>-1</Y>
+      </FloatingLocation>
+    </DockConfig>
+    <DockConfig>
+      <DockAreaSize>
+        <Width>0</Width>
+        <Height>40</Height>
+      </DockAreaSize>
+      <PaneSize>
+        <Width>100</Width>
+        <Height>100</Height>
+      </PaneSize>
+      <DockLocation>DockedTop</DockLocation>
+      <Pinned>true</Pinned>
+      <ChildPaneStyle>HorizontalSplit</ChildPaneStyle>
+      <WindowName>Log</WindowName>
+      <FloatingLocation>
+        <X>-1</X>
+        <Y>-1</Y>
+      </FloatingLocation>
+    </DockConfig>
+    <DockConfig>
+      <DockAreaSize>
+        <Width>312</Width>
+        <Height>116</Height>
+      </DockAreaSize>
+      <PaneSize>
+        <Width>100</Width>
+        <Height>100</Height>
+      </PaneSize>
+      <DockLocation>DockedTop</DockLocation>
+      <Pinned>true</Pinned>
+      <ChildPaneStyle>HorizontalSplit</ChildPaneStyle>
+      <WindowName>ESC Parameter Editor</WindowName>
+      <FloatingLocation>
+        <X>-1</X>
+        <Y>-1</Y>
+      </FloatingLocation>
+    </DockConfig>
+  </DebugConfig>
+  <theRegistry>
+    <QTMThisPCTarget>
+      <Name>This PC</Name>
+      <TestContainers>
+        <Name>C:\Program Files\Qualcomm\QDART\bin\SubSysSwDownload.dll</Name>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.DisplayLogicalDrives</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.GetDriveInformation</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Initialize_EMMCDownload_errorcode_dictionary</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.QPHONEMS_GetDriveGUID</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.QPHONEMS_GetDriveMap</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.QPHONEMS_GetDriveMap_WithMI</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.QPHONEMS_MassStorageSetParameters</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.QPHONEMS_ReadEmmcImage</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.QPHONEMS_UploadEmmcImage</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetComportFromPhysicalInformation</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetNewDriveLetter</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetNewLogicalAndPhysicalDrive</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetPhysicalPortAddress</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetPhysicalPortInformation</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetPhysicalPortInformation_MI</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetPortAfterPowerCycle</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetPortAfterPowerCycle_MI</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_GetPortAfterPowerCycleByPhysicalAddress</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_LogicalDriveToPhysicalDrive</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_SetDriveLetterMark</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Util_SetLogicalAndPhysicalDriveMark</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Utility_CaptureWindowsDialogToFormatTheDisk</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.EMMCDownload.Utility_FlattenMetaBuild</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.Append_DPP_Entry_To_RawProgramFile</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.Append_QCN_Entry_To_RawProgram</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.CheckDeviceStatus</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.CheckIfPortExists</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>portNumber</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>SwDownloadErrCode</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Int</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Description>Software Download Error Code</Description>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.ConnectToPhone_Simple</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.ConnectToServer</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DelayBasedOnPanel</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>panel</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>offsetInMilliSecs</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>SwDownloadErrCode</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Int</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Description>Software Download Error Code</Description>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DelayBasedOnPort</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DisconnectFromAllServers</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DisconnectFromServer</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DisconnectFromServer_FireHose</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DisconnectFromServer_Sahara</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DisplayVersion</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.DownloadCEFSFile</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.EnableQMSLLogging</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.EndTime</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>totalElapsedTimeInSeconds</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Double</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.ExecuteFastBootEraseCommand</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.ExecuteFastBootFlashCommand</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.ExecuteFastBootRebootCommand</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.FactoryImageDownload</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.FastBootRawCommand</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.FastBootRawCommand_Asynch</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.IdentifyDevicePort</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.IsDeviceInFastBootMode</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.IsPhoneConnected</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.NV_EFSSync</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.NV_ReadItem</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.NV_WriteItem</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONE_StartLog</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_BackupNVFromMobileToQCN</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_BreakDownFFUToRawProgram</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_Dload_Reset</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_DLoad_SendNop</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_DLoad_SendNop_WithRetries</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_DloadVersionReq</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_DownloadQcnFileFromPhone</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_DownloadUserPartitions</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_EfsSyncWithWait</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_EnableDataLogToFile_Firehose</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>enabled</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_EnableReadDataValidation_Firehose</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>enabled</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_EnableReadDataWithSHA256Validation_Firehose</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>enabled</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_EnableReadSHA256Validation_Firehose</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>enabled</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_EraseEMMC</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_FireHose_Erase</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_FireHose_Reset</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>Action</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>DelayInSeconds</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Description>Postpone the reset or off by several seconds</Description>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_FireHoseConfigure</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>MaxPayloadSizeInBytes</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>memory_name</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>target_name</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>AckPacketNumber</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseAckRawDataAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseSkipWriteAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseAlwaysValidateAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseVerboseAttr</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>bUseAckRawDataEveryNumPackets</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Boolean</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_FireHoseNOP</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_FireHoseOpenPort</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>Port</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_FirehoseSetConfig_CommaDelimitedSkipFiles</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_FireHoseSetDigestFromXml</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>digestfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_NV_SetCurrentSubscriptionIndex</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_NV_SetTargetSupportMultiSIM</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_Sahara_SetImageTransferMode</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SaharaArmPrgDownload</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>sDirectoryName</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>sFilename</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SaharaOpenPort</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SaharaOpenPortWithChipValidation</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>Port</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>EnableValidation</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Constraints>No=0;Yes=1</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>MsmIdReferenceVal</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>UInt64</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>MSM_ID</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>UInt64</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>Version</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>UInt64</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>mode</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>0</Value>
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <Description>Select from drop down</Description>
+              <Constraints>Download=0;Upgrade=2</Constraints>
+              <DisplayHint>8</DisplayHint>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>timeout</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>UInt64</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SendDefaultSPC</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SetEmmcLibMode</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SetFactoryToken</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SetReadbackMode_Firehose</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>mode</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Byte</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SetSendDataDelay_Firehose</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>timeinMilliSeconds</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SetupStrmDlRetries</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_StrmDownload_Reset</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SwitchToDownloadMode</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SwitchToDownloadMode_NopValidationOptional</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_SwitchToEDL</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcImage_FireHose</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>rawprogramfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>patchfile</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>String</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>imageSizeInMB</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Single</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+            <ParameterCls>
+              <Name>throughput</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value>-99999</Value>
+              <DataType>Single</DataType>
+              <Type>Output</Type>
+              <EnableDataLoggingAsString>T</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcImage_FireHose_NoPatch</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcImages_FireHose</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcMetaBuildContent_FireHose</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcUserParitionImage</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadEmmcUserParitionImageWithCDT</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadNORImage</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadQcnFileToPhone</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadSB1BootLoader</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadSB1MultiImage</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.QPHONEMS_UploadSB2MultiImage</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.RandomDelay</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.Reset</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.SB2MultiImageUpload</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.SendPortChangeNotify</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.StartTime</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.UpdateStatus</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.UpdateTestRunProcess</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.UploadAPImageUsingFastBoot</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.UploadAPImageUsingFastBoot_Asynch</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.UploadCEFSFile</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.UploadHexFile</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.ValidateImageTimeStamps</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.VerifyPhoneConnect</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.WaitForDevice</Name>
+          <Parameters>
+            <ParameterCls>
+              <Name>waitInSecs</Name>
+              <NoOfElements>1</NoOfElements>
+              <Value />
+              <DataType>Int</DataType>
+              <Type>Input</Type>
+              <EnableDataLoggingAsString>F</EnableDataLoggingAsString>
+              <EnableChartingAsString>F</EnableChartingAsString>
+              <UseRunTimeLimits>true</UseRunTimeLimits>
+              <ParamRID>-1</ParamRID>
+              <ArrayParameterRIDsAsString>-1</ArrayParameterRIDsAsString>
+            </ParameterCls>
+          </Parameters>
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.WP8_Download_File_From_Target</Name>
+          <Parameters />
+        </Tests>
+        <Tests>
+          <Name>SwDownload.SwDownloadTest.WP8_Upload_File_To_Target</Name>
+          <Parameters />
+        </Tests>
+        <TargetType>ThisPC</TargetType>
+        <TargetName>This PC</TargetName>
+        <Expanded>false</Expanded>
+        <HideTests>false</HideTests>
+        <ContainerType>DotNetTest</ContainerType>
+      </TestContainers>
+      <Expanded>true</Expanded>
+    </QTMThisPCTarget>
+  </theRegistry>
+</SerializeComponents>

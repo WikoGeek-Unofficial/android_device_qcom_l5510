@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+     <!-- Shaobin.Zhang, DATE20150126, Add default Alarm packageName into WhiteList, IFJAKK-3306, Start -->
+     <setting type="system" name="smart_standby_white_list" value="com.ape.retailmode,com.tiantian.ttclock,com.dianxinos.clock,com.xjt5.clock,com.jianjian.clock.activity,com.zdworks.android.zdclock,com.android.deskclock,com.tencent.qqcalendar,com.malangstudio.alarmmon,com.baidu.didaalarm,com.alarmup.main"/>
+     <setting type="system" name="smart_standby_black_list" value="com.google.android.gms,com.google.android.apps.plus,com.google.android.googlequicksearchbox,com.facebook.katana,com.android.vending,com.google.android.talk"/>
+     <!-- Shaobin.Zhang, DATE20150126, Add default Alarm packageName into WhiteList, IFJAKK-3306, End-->
+</resources>

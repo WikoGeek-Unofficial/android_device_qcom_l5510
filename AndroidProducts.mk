@@ -1,0 +1,2 @@
+PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/l5510.mk

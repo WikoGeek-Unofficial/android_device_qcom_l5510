@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2014 Qualcomm Technologies, Inc. All Rights Reserved.
+  Qualcomm Technologies Proprietary and Confidential.
+ -->
+<resources>
+    <!-- <Line> <FFBAL-182> <do not show alertNoSIM view (default true)> <2015.07.02> -->
+    <bool name="feature_no_sim">false</bool>
+</resources>

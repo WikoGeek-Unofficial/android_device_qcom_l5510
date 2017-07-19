@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:id="@+id/main_ui_font2"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+	<LinearLayout
+        android:id="@+id/linear_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+		<ImageView
+			android:id="@+id/phone_call"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="74dip"
+			android:layout_marginLeft="276dip"
+			android:src="@drawable/call"/>
+		<ImageView
+			android:id="@+id/call_missed"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="70dip"
+			android:layout_marginLeft="-17dip"
+			android:visibility="gone"/>
+	</LinearLayout>
+
+	<AbsoluteLayout
+        android:id="@+id/linear_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+		<!--****** AM/PM display ******-->
+		<TextView
+			android:id="@+id/am_pm"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="108dip"
+			android:layout_y="4dip"
+			android:ellipsize="none"
+			android:singleLine="true"
+			android:textSize="10dip"
+			android:text="@string/am_pm"/>
+		<!--****** Time display ******-->
+		<TextView
+			android:id="@+id/time_display"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="105dip"
+			android:layout_y="2dip"
+			android:ellipsize="none"
+			android:singleLine="true"
+			android:textSize="33dip"/>
+		<!--****** Date/Week display ******-->
+		<TextView
+	    	android:id="@+id/weekDisplay"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="110dip"
+			android:layout_y="45dip"
+			android:ellipsize="none"
+			android:singleLine="true"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textSize="12dip"/>
+		<TextView
+			android:id="@+id/dateDisplay"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="140dip"
+			android:layout_y="45dip"
+			android:ellipsize="none"
+			android:singleLine="true"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textSize="12dip"/>
+		<!--****** Divide line display ******-->
+		<ImageView
+			android:id="@+id/divide_line"
+			android:layout_width="wrap_content"
+			android:layout_height="43dip"
+			android:layout_x="184dip"
+			android:layout_y="17dip"
+			android:src="@drawable/divide_line"/>
+		<!--****** Weather display ******-->
+        <ImageView
+			android:id="@+id/weather"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="191dip"
+			android:layout_y="20dip"/>
+        <TextView
+			android:id="@+id/tempc_value"
+			android:layout_width="80dip"
+			android:layout_height="wrap_content"
+			android:layout_x="192dip"
+			android:layout_y="45dip"
+			android:ellipsize="end"
+			android:singleLine="true"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textSize="12dip"/>
+		<!--****** Message ICON display ******-->
+		<ImageView
+			android:id="@+id/phone_message"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="258dip"
+			android:layout_y="12dip"
+			android:src="@drawable/message"/>
+		<ImageView
+			android:id="@+id/sms_unread"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="280dip"
+			android:layout_y="12dip"
+			android:visibility="gone"/>
+	</AbsoluteLayout>
+
+	<LinearLayout
+        android:id="@+id/linear_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+		<ImageView
+			android:id="@+id/phone_music"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="6dip"
+			android:layout_marginLeft="238dip"
+			android:src="@drawable/music"/>
+	</LinearLayout>
+</LinearLayout>
